@@ -33,6 +33,8 @@
       background-color: rgba(0, 0, 0, 0.5);
     }
 
+    
+
     .carousel-control-prev,
     .carousel-control-next {
       bottom: 50px;
@@ -56,6 +58,16 @@
     .myshowhover:hover+div {
       display: block;
     }
+
+    @media (max-width: 575.98px) {
+      .h5carousel{
+        font-size: 90%;
+      }
+      .pcarousel{
+        font-size: 80%;
+      }
+    }
+    
   </style>
 </head>
 
@@ -149,7 +161,7 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-md-9 mb-4">
+      <div class="col-xs-12 col-lg-9 mb-4">
 
         <!-- #SlideShow-->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" ">
@@ -171,16 +183,16 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img src="img/logo_banner.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Selamat Datang di SeraYu Fansub</h5>
-                <p>Terima kasih telah mengunjungi website kami. Nikmati anime kesukaan mu dalam 60 fps</p>
+              <div class="carousel-caption d-md-block">
+                <h5 class="h5carousel">Selamat Datang di SeraYu Fansub</h5>
+                <p class="pcarousel">Terima kasih telah mengunjungi website kami. Nikmati anime kesukaan mu dalam 60 fps</p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/under contructioon.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Website Masih Dalam Tahap Beta</h5>
-                <p>ini merupakan website baru kami, mohon maaf bila kalian menemukan bug yang mengganggu.
+              <div class="carousel-caption d-md-block">
+                <h5 class="h5carousel">Website Masih Dalam Tahap Beta</h5>
+                <p class="pcarousel">ini merupakan website baru kami, mohon maaf bila kalian menemukan bug yang mengganggu.
                   Silahkan berikan laporan bug ke Discord kami atau berikan sugesti, kritik dan saran kalian.
                   Para admin, programmer dan designer kami terus bekerja keras dalam menyelesaikan website ini. (kalau
                   lagi ga maen genshin impact)</p>
@@ -188,9 +200,9 @@
             </div>
             <div class="carousel-item">
               <img src="img/support.png" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Tolong Support Kami</h5>
-                <p>Support kalian merupakan hal terpenting bagi kami. Share website ini ke teman kalian dan social media
+              <div class="carousel-caption d-md-block">
+                <h5 class="h5carousel">Tolong Support Kami</h5>
+                <p class="pcarousel">Support kalian merupakan hal terpenting bagi kami. Share website ini ke teman kalian dan social media
                   kalian.
                   bergabung ke discord kami dan berikan partisipasi kalian disana.
                   Dan jangan lupa untuk follow sosial media/fanpages kami agar mendapatkan info terbaru lebih cepat</p>
