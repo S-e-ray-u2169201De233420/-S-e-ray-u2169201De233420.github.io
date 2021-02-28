@@ -10,6 +10,7 @@
 
   <!-- css bootstrap -->
   <link href="vendor/css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
   <!-- css padding body -->
 
   <style>
@@ -33,7 +34,7 @@
       background-color: rgba(0, 0, 0, 0.5);
     }
 
-    
+
 
     .carousel-control-prev,
     .carousel-control-next {
@@ -60,16 +61,80 @@
     }
 
     @media (max-width: 575.98px) {
-      .h5carousel{
+      .h5carousel {
         font-size: 80%;
       }
-      .pcarousel{
+
+      .pcarousel {
         font-size: 75%;
       }
     }
 
-    .card{
-      border: none ;
+    .card {
+      border: none;
+    }
+
+    .footer-basic {
+      padding: 10px 0;
+      background-color: #ffffff;
+      color: #4b4c4d;
+    }
+
+    .footer-basic ul {
+      padding: 0;
+      list-style: none;
+      text-align: center;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 0;
+    }
+
+    .footer-basic li {
+      padding: 0 10px;
+    }
+
+    .footer-basic ul a {
+      color: white;
+      text-decoration: none;
+      opacity: 0.8;
+    }
+
+    .footer-basic ul a:hover {
+      opacity: 1;
+    }
+
+    .footer-basic .social {
+      text-align: center;
+      padding-bottom: 10px;
+      color: white;
+    }
+
+    .footer-basic .social>a {
+      font-size: 34px;
+      width: 40px;
+      height: 40px;
+      line-height: 40px;
+      display: inline-block;
+      text-align: center;
+      margin-top: 10px;
+      margin-left: 15px;
+      margin-right: 15px;
+      color: inherit;
+      opacity: 0.75;
+    }
+
+
+
+    .footer-basic .social>a:hover {
+      opacity: 0.9;
+    }
+
+    .footer-basic .copyright {
+      margin-top: 15px;
+      text-align: center;
+      font-size: 13px;
+      color: #aaa;
+      margin-bottom: 0;
     }
     
   </style>
@@ -189,14 +254,16 @@
               <img src="img/logo_banner.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-md-block">
                 <h5 class="h5carousel">Selamat Datang di SeraYu Fansub</h5>
-                <p class="pcarousel">Terima kasih telah mengunjungi website kami. Nikmati anime kesukaan mu dalam 60 fps</p>
+                <p class="pcarousel">Terima kasih telah mengunjungi website kami. Nikmati anime kesukaan mu dalam 60 fps
+                </p>
               </div>
             </div>
             <div class="carousel-item">
               <img src="img/under contructioon.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-md-block">
                 <h5 class="h5carousel">Website Masih Dalam Tahap Beta</h5>
-                <p class="pcarousel">ini merupakan website baru kami, mohon maaf bila kalian menemukan bug yang mengganggu.
+                <p class="pcarousel">ini merupakan website baru kami, mohon maaf bila kalian menemukan bug yang
+                  mengganggu.
                   Silahkan berikan laporan bug ke Discord kami atau berikan sugesti, kritik dan saran kalian.
                   Para admin, programmer dan designer kami terus bekerja keras dalam menyelesaikan website ini. (kalau
                   lagi ga maen genshin impact)</p>
@@ -206,7 +273,8 @@
               <img src="img/support.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-md-block">
                 <h5 class="h5carousel">Tolong Support Kami</h5>
-                <p class="pcarousel">Support kalian merupakan hal terpenting bagi kami. Share website ini ke teman kalian dan social media
+                <p class="pcarousel">Support kalian merupakan hal terpenting bagi kami. Share website ini ke teman
+                  kalian dan social media
                   kalian.
                   bergabung ke discord kami dan berikan partisipasi kalian disana.
                   Dan jangan lupa untuk follow sosial media/fanpages kami agar mendapatkan info terbaru lebih cepat</p>
@@ -221,7 +289,7 @@
 
     </div>
 
-    
+
     <div class="row">
       <!-- #Catalog-->
       <div class="col-12 col-md-12 col-lg-9">
@@ -384,16 +452,22 @@
 
   </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-center text-lg-start">
-      <!-- Copyright -->
-      <div class="text-center text-white p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2021 Copyright:
-        <a class="text-white" href="#">Serayu</a>
-      </div>
-      <!-- Copyright -->
+  <!-- Footer -->
+  <div class="footer-basic navbar-dark bg-dark">
+    <footer>
+      <div class="social"><a href="#"><i class="bi bi-instagram"></i></a><a href="#"><i class="bi bi-discord"></i></a><a
+          href="#"><i class="bi bi-facebook"></i></a></div>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Home</a></li>
+        <li class="list-inline-item"><a href="#">Services</a></li>
+        <li class="list-inline-item"><a href="#">About</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">Serayu Fansub © 2021</p>
     </footer>
-    <!-- Footer -->
+  </div>
+  <!-- Footer -->
 
 
 
