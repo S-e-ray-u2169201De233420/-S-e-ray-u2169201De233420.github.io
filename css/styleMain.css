@@ -3,7 +3,7 @@
         text-align: center;
         padding-bottom: 10px;
         color: white;
-        border-radius: 15px;
+        border-radius: 5px;
     }
 
     .social>a {
@@ -141,4 +141,28 @@
         border: none;
     }
 
+    /* rounded corner */
+    .rounded-corner{
+        border-radius: 5px;
+    }
 
+    /* Score */ 
+    .score{
+        font-size: 12px;
+    }   
+
+    /* vl */
+    .vl {
+        border-right: 1px solid lightgray;
+        height: auto;
+      }
+
+    /* information anime */
+    .infoAnime{
+        font-size: 14px;
+    }   
+
+    
+    .tableBottom{
+        margin-bottom: 0px;
+    }
