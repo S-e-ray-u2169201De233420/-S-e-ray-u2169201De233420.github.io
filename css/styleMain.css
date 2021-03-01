@@ -166,3 +166,10 @@
     .tableBottom{
         margin-bottom: 0px;
     }
+
+    /* header resize */
+    @media (max-width: 575.98px) {
+        .headerResize {
+        font-size: 80%;
+        }
+    }
