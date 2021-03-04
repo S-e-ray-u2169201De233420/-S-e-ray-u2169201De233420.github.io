@@ -24,3 +24,4 @@ function spoiler_desc() {
       x.innerHTML = "See Less..";
     }
   }
+
