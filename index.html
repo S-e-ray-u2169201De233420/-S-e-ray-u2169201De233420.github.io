@@ -63,32 +63,24 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
-                Genre
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Comedy</a>
-                <a class="dropdown-item" href="#">Drama</a>
-                <a class="dropdown-item" href="#">Fantasy</a>
-                <a class="dropdown-item" href="#">Romance</a>
-                <a class="dropdown-item" href="#">Slice of Life</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="g_page.php">See More...</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
                 Type
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#">TV Series</a>
                 <a class="dropdown-item" href="#">Movie</a>
                 <a class="dropdown-item" href="#">OVA / ONA / Special</a>
-              </div>  
+              </div>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="l_update.php">Latest Update</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Anime List
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Anime List</a>
+                <a class="dropdown-item" href="#">Latest Update</a>
+                <a class="dropdown-item" href="#">Genre</a>
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="l_update.php">Gallery</a>
@@ -121,7 +113,7 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit" onclick="BlockedTest()">Search</button>
           </form>
         </div>
     </div>
@@ -139,6 +131,15 @@
 
           <!-- #SlideShow-->
           <div class="col-12 mb-4">
+
+            <!-- #Iklan Box-->
+            <div class="mb-2 justify-content-center col-12 mx-auto text-center">
+              <a href="">
+                <img src="img/banner_iklan_Trakteer.png" alt="" class="img-fluid mb-2 mx-auto">
+              </a>
+            </div>
+            <!-- #Iklan Box -->
+
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
               <ol class=" carousel-indicators">
                 <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -329,7 +330,7 @@
               </div>
               <!-- #endCard -->
 
-              
+
 
 
 
@@ -338,10 +339,10 @@
               <div class="col-12">
                 <nav aria-label="Page navigation example">
                   <ul class="pagination justify-content-center">
-                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    <li class="page-item"><a class="page-link" onclick="BlockedTest()">Previous</a></li>
+                    <li class="page-item"><a class="page-link" href="">1</a></li>
+                    <li class="page-item"><a class="page-link" onclick="BlockedTest()">2</a></li>
+                    <li class="page-item"><a class="page-link" onclick="BlockedTest()">Next</a></li>
                   </ul>
                 </nav>
               </div>
@@ -351,6 +352,14 @@
           </div>
           <!-- #endcatalog -->
 
+          <!-- #Iklan Box-->
+          <div class="mb-2 justify-content-center col-12 mx-auto text-center">
+            <a href="">
+              <img src="img/banner_iklan_Trakteer.png" alt="" class="img-fluid mb-2 mx-auto">
+            </a>
+          </div>
+          <!-- #Iklan Box -->
+          
         </div>
       </div>
 
@@ -387,7 +396,10 @@
 
           </div>
         </div>
+
       </div>
+
+
       <!-- #endSidebar -->
     </div>
 

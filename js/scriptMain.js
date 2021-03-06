@@ -25,3 +25,6 @@ function spoiler_desc() {
     }
   }
 
+  function BlockedTest() {
+    alert(" NO ACCESS \n ini website design, beberapa fitur tidak fungsional");
+  }
