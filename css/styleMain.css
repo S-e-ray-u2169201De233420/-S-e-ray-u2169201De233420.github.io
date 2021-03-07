@@ -133,7 +133,7 @@
         background-color: rgba(0, 0, 0, 0.5);
     }
 
-    @media (max-width: 575.98px) {
+    @media (max-width: 991.98px) {
         .anchor-bg-color {
             top: auto;
             bottom: 10%;
@@ -191,3 +191,13 @@
     .tableBottom{
         margin-bottom: 0px;
     }
+
+        
+    /* ============ desktop view ============ */
+    @media all and (min-width: 1199.98px) {
+        .navbar .nav-item .dropdown-menu{ display: none; }
+        .navbar .nav-item:hover .nav-link{ color: #fff;  }
+        .navbar .nav-item:hover .dropdown-menu{ display: block; }
+        .navbar .nav-item .dropdown-menu{ margin-top:0; }
+    }	
+    /* ============ desktop view .end// ============ */
