@@ -125,7 +125,6 @@
 
     .anchor-bg-color {
         top: auto;
-        bottom: 10%;
         opacity: 0;
         transition: .5s ease;
       
@@ -136,7 +135,6 @@
     @media (max-width: 991.98px) {
         .anchor-bg-color {
             top: auto;
-            bottom: 10%;
             opacity: 1;
             transition: .5s ease;
             height: auto;
@@ -195,6 +193,7 @@
     .animeList ul{
         list-style-type: none;
     }
+
 
     /* ============ desktop view ============ */
     @media all and (min-width: 1199.98px) {
