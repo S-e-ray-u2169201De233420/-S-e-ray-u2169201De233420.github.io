@@ -26,7 +26,7 @@
 
 </head>
 
-<body>
+<body >
   <!-- JavaScript -->
   <script src="js/scriptMain.js"></script>
 
@@ -66,9 +66,9 @@
                 Type
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">TV Series</a>
-                <a class="dropdown-item" href="#">Movie</a>
-                <a class="dropdown-item" href="#">OVA / ONA / Special</a>
+                <a class="dropdown-item" href="typeTv.html">TV Series</a>
+                <a class="dropdown-item" href="typeMovie.html">Movie</a>
+                <a class="dropdown-item" href="typeSpecial.html">OVA / ONA / Special</a>
               </div>
             </li>
             <li class="nav-item dropdown">
@@ -77,13 +77,13 @@
                 Anime List
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Anime List</a>
-                <a class="dropdown-item" href="#">Genre</a>
-                <a class="dropdown-item" href="#">Latest Update</a>
+                <a class="dropdown-item" href="listAnimeList.html">Anime List</a>
+                <a class="dropdown-item" href="listGenreList.html">Genre</a>
+                <a class="dropdown-item" href="listLastestUpdate.html">Latest Update</a>
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="l_update.php">Gallery</a>
+              <a class="nav-link" href="gallery.html">Gallery</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -91,10 +91,10 @@
                 Services
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Donasi</a>
-                <a class="dropdown-item" href="#">Feedback</a>
-                <a class="dropdown-item" href="#">Jasa Render</a>
-                <a class="dropdown-item" href="#">Jasa Gambar</a>
+                <a class="dropdown-item" href="footFeedback.html#donasi">Donasi</a>
+                <a class="dropdown-item" href="footFeedback.html#feedback">Feedback</a>
+                <a class="dropdown-item" href="footFeedback.html#jasa">Jasa Render</a>
+                <a class="dropdown-item" href="footFeedback.html#jasa">Jasa Gambar</a>
                 <!-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="g_page.php">See More...</a> -->
               </div>
@@ -105,17 +105,19 @@
                 Random
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Wangy maker</a>
+                <a class="dropdown-item" href="randomPatchNote.html" >Patch Notes</a>
+                <a class="dropdown-item" href="" onclick="BlockedTest()">Wangy maker</a>
                 <!-- <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="g_page.php">See More...</a> -->
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="l_update.php">Tutorial</a>
+              <a class="nav-link" href="" onclick="BlockedMagerTest()">Tutorial</a>
             </li>
             <li class="nav-item mx-xl-2 ">
               <form class="form-inline my-2 my-xl-0">
-                <button class="btn btn-outline-primary" type="button">Notify&nbsp;Me!!!</button>
+                <button class="btn btn-outline-primary" type="button"
+                  onclick="BlockedNotifyMe()">Notify&nbsp;Me!!!</button>
               </form>
             </li>
 
@@ -148,7 +150,7 @@
 
             <!-- #Iklan Box-->
             <div class="mb-2 justify-content-center col-12 mx-auto text-center">
-              <a href="">
+              <a href="footAboutUs.html">
                 <img src="img/banner_60fps.png" alt="" class="img-fluid mb-2 mx-auto">
               </a>
             </div>
@@ -210,7 +212,7 @@
 
 
             </div>
-            
+
 
 
           </div>
@@ -223,9 +225,8 @@
               <!-- #CardMovie-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-success" href="movie.php"> Movie </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top "
-                      src="img/Anime/Kimi_no_nawa.png">
+                  <a class="btn btn-success" href="typeMovie.html"> Movie </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top " src="img/Anime/Kimi_no_nawa.png">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Kimi No nawa</strong></h6>
                       <small class="text-white">Post on 20-03-2020</small>
@@ -240,9 +241,8 @@
               <!-- #CardTv-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-warning" href="movie.php"> Tv Series </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top"
-                      src="img/Anime/fly_me_to_moon.jpg">
+                  <a class="btn btn-warning" href="typeTv.html"> Tv Series </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top" src="img/Anime/fly_me_to_moon.jpg">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Tonikaku Kawaii</strong></h6>
                       <small class="text-white">Post on 23-02-2020</small>
@@ -253,13 +253,12 @@
                 </div>
               </div>
               <!-- #endCardTv -->
-              
+
               <!-- #CardTv-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-warning" href="movie.php"> Tv Series </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top"
-                      src="img/Anime/majo_no_tabi.jpg">
+                  <a class="btn btn-warning" href="typeTv.html"> Tv Series </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top" src="img/Anime/majo_no_tabi.jpg">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Majo no Tabitabi</strong></h6>
                       <small class="text-white">Post on 20-02-2020</small>
@@ -274,11 +273,11 @@
               <!-- #CardSpecial-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-danger" href="movie.php"> Special </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top "
-                      src="img/Anime/violet_ova.png">
+                  <a class="btn btn-danger" href="typeSpecial.html"> Special </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top " src="img/Anime/violet_ova.png">
                     <div class="card-img-overlay anchor-bg-color overlay">
-                      <h6 class="card-title img-overlay-anchor"><strong>Violet Evergarden: Kitto "Ai" wo Shiru Hi ga Kuru no Darou</strong></h6>
+                      <h6 class="card-title img-overlay-anchor"><strong>Violet Evergarden: Kitto "Ai" wo Shiru Hi ga
+                          Kuru no Darou</strong></h6>
                       <small class="text-white">Post on 19-02-2020</small>
                     </div>
                 </div>
@@ -291,11 +290,11 @@
               <!-- #CardTv-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-warning" href="movie.php"> Tv Series </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top"
-                      src="img/Anime/mushoku_tensei.png">
+                  <a class="btn btn-warning" href="typeTv.html"> Tv Series </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top" src="img/Anime/mushoku_tensei.png">
                     <div class="card-img-overlay anchor-bg-color overlay">
-                      <h6 class="card-title img-overlay-anchor"><strong>Mushoku Tensei: Isekai Ittara Honki Dasu</strong></h6>
+                      <h6 class="card-title img-overlay-anchor"><strong>Mushoku Tensei: Isekai Ittara Honki
+                          Dasu</strong></h6>
                       <small class="text-white">Post on 11-02-2020</small>
                     </div>
                 </div>
@@ -308,9 +307,8 @@
               <!-- #CardTv-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-warning" href="movie.php"> Tv Series </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top"
-                      src="img/Anime/toaru_railgun.jpg">
+                  <a class="btn btn-warning" href="typeTv.html"> Tv Series </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top" src="img/Anime/toaru_railgun.jpg">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Toaru Kagaku no Railgun</strong></h6>
                       <small class="text-white">Post on 7-02-2020</small>
@@ -321,13 +319,12 @@
                 </div>
               </div>
               <!-- #endCardTv -->
-              
+
               <!-- #CardTv-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-warning" href="movie.php"> Tv Series </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top"
-                      src="img/Anime/horimiya.jpg">
+                  <a class="btn btn-warning" href="typeTv.html"> Tv Series </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top" src="img/Anime/horimiya.jpg">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Horimiya</strong></h6>
                       <small class="text-white">Post on 4-02-2020</small>
@@ -342,9 +339,8 @@
               <!-- #CardMovie-->
               <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3 mb-4 my-col">
                 <div class="card catalogCard">
-                  <a class="btn btn-success" href="movie.php"> Movie </a>
-                  <a href="animePages.html" class="myshow"><img class="card-img-top "
-                      src="img/Anime/tenki_no_ko.png">
+                  <a class="btn btn-success" href="typeMovie.html"> Movie </a>
+                  <a href="animePages.html" class="myshow"><img class="card-img-top " src="img/Anime/tenki_no_ko.png">
                     <div class="card-img-overlay anchor-bg-color overlay">
                       <h6 class="card-title img-overlay-anchor"><strong>Tenki no Ko</strong></h6>
                       <small class="text-white">Post on 1-02-2020</small>
@@ -376,7 +372,7 @@
 
           <!-- #Iklan Box-->
           <div class="mb-2 justify-content-center col-12 mx-auto text-center">
-            <a href="">
+            <a href="footFeedback.html#donasi">
               <img src="img/banner_iklan_Trakteer.png" alt="" class="img-fluid mb-2 mx-auto">
             </a>
           </div>
@@ -439,10 +435,10 @@
 
       <ul class="list-inline">
         <li class="list-inline-item"><a href="index.html">Home</a></li>
-        <li class="list-inline-item"><a href="dmca.html">DMCA</a></li>
-        <li class="list-inline-item"><a href="aboutUs.html">About Us</a></li>
-        <li class="list-inline-item"><a href="feedback.html">Feedback</a></li>
-        <li class="list-inline-item"><a href="privacyPolicy.html">Privacy Policy</a></li>
+        <li class="list-inline-item"><a href="footDmca.html">DMCA</a></li>
+        <li class="list-inline-item"><a href="footAboutUs.html">About Us</a></li>
+        <li class="list-inline-item"><a href="footFeedback.html">Feedback</a></li>
+        <li class="list-inline-item"><a href="footPrivacyPolicy.html">Privacy Policy</a></li>
       </ul>
       <p class="copyright">Serayu Fansub © 2021</p>
     </footer>

@@ -26,5 +26,13 @@ function spoiler_desc() {
   }
 
   function BlockedTest() {
-    alert(" STOP RIGHT THERE \n ini website design, beberapa fitur ga fungsional");
+    alert("STOP RIGHT THERE \nini website design, beberapa fitur ga fungsional");
+  }
+
+  function BlockedMagerTest() {
+    alert("FrontEnd nya lagi mager \nbelum ada fiturnya. mintanya nanti saja");
+  }
+
+  function BlockedNotifyMe() {
+    alert("INI CONTOH NOTIFY ME \nbelum ada fiturnya. pokoknya nanti muncul kayak bacaan suruh allow gitu, urusan backend im not gonna touch this sh*t");
   }
