@@ -34,5 +34,5 @@ function spoiler_desc() {
   }
 
   function BlockedNotifyMe() {
-    alert("INI CONTOH NOTIFY ME \nbelum ada fiturnya. pokoknya nanti muncul kayak bacaan suruh allow gitu, urusan backend im not gonna touch this sh*t");
+    alert("INI CONTOH NOTIFY ME \nbelum ada fiturnya. pokoknya nanti muncul kayak bacaan suruh allow gitu, urusan backend im not gonna touch this sh*t -frontend");
   }
