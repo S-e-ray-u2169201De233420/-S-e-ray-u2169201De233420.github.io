@@ -152,7 +152,7 @@
         }
         
         .smCaption{
-            height: 130px;
+            height: auto;
             position: relative;
             background-color: rgba(0, 0, 0, 1);
         }
