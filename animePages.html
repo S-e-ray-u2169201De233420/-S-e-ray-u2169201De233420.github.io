@@ -11,6 +11,9 @@
     <link href="vendor/css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 
+    <!-- css bagguete box-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css" />
+
     <!-- Css main-->
     <link rel="stylesheet" href="css/styleMain.css">
 
@@ -155,8 +158,8 @@
 
                         <!-- #Infomation box-->
                         <div class="bg-white rounded-corner px-3 py-3 mb-2">
-                            <H4>Judul Anime</H4>
-                            <h6 class="text-muted">Judul alternative</h6>
+                            <H4>JudulAnime</H4>
+                            <h6 class="text-muted">JudulAlternatif</h6>
                             <hr>
                             <div class="col-12 bg-light rounded-corner border  ">
                                 <div class="row">
@@ -171,7 +174,7 @@
 
 
                                             <div class="text-center col-12 pt-3 ">
-                                                <H3>8.96</H3>
+                                                <H3>NilaiPakeAngka</H3>
                                             </div>
                                         </div>
 
@@ -185,11 +188,11 @@
                                                 <tbody>
                                                     <tr>
                                                         <th class="table-active px-1" scope="row">Type</th>
-                                                        <td>Movies</td>
+                                                        <td><a href="typeMovie.html">Movies</a></td>
                                                     </tr>
                                                     <tr>
                                                         <th class="table-active px-1" scope="row">Aired</th>
-                                                        <td>Aug 26, 2016</td>
+                                                        <td>TanggalRilis</td>
                                                     </tr>
                                                     <tr>
                                                         <th class="table-active px-1" scope="row">Genres</th>
@@ -201,11 +204,11 @@
                                                     </tr>
                                                     <tr>
                                                         <th class="table-active px-1" scope="row">Studio</th>
-                                                        <td>CoMix Wave Films</td>
+                                                        <td>NamaStudio</td>
                                                     </tr>
                                                     <tr>
                                                         <th class="table-active px-1" scope="row">Episode</th>
-                                                        <td>1</td>
+                                                        <td>JumlahEps</td>
                                                     </tr>
                                                 </tbody>
                                             </table>
@@ -242,40 +245,15 @@
                                     <hr>
 
                                     <div class="collapse show " id="collapseMainDesc">
-                                        <p>Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the
-                                            bustling
-                                            city of Tokyo—a dream that stands in stark contrast to her present life in
-                                            the
-                                            countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a
-                                            high
-                                            school
-                                            student while juggling his part-time job and hopes for a future in
-                                            architecture.
+                                        <p>ParagrafPertama
                                         </p>
 
                                         <div class="collapse" id="collapseDesc">
                                             <p>
-                                                One day, Mitsuha awakens in a room that is not her own and suddenly
-                                                finds
-                                                herself
-                                                living
-                                                the dream life in Tokyo—but in Taki's body! Elsewhere, Taki finds
-                                                himself
-                                                living
-                                                Mitsuha's life in the humble countryside. In pursuit of an answer to
-                                                this
-                                                strange
-                                                phenomenon, they begin to search for one another.
+                                                ParagrafKedua
                                             </p>
                                             <p>
-                                                Kimi no Na wa. revolves around Mitsuha and Taki's actions, which begin
-                                                to
-                                                have a
-                                                dramatic impact on each other's lives, weaving them into a fabric held
-                                                together
-                                                by
-                                                fate
-                                                and circumstance.
+                                                ParagrafTambahan
                                             </p>
                                         </div>
 
@@ -296,7 +274,7 @@
                     <!-- #EndDescription Box-->
 
                     <!-- #Trailer Box-->
-                    <div class="col-12">
+                    <div class="col-12 grid-gallery">
                         <div class="bg-white rounded-corner px-3 py-3 mb-4">
                             <div class="col-12 bg-light rounded-corner border  ">
 
@@ -315,19 +293,31 @@
                                             <div
                                                 class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
                                                 <iframe class="embed-responsive-item"
-                                                    src="https://www.youtube.com/embed/3KR8_igDs1Y"
+                                                    src="TaroTrailerDisini"
                                                     allowfullscreen></iframe>
                                             </div>
 
                                             <div class="collapse col-12" id="collapseSS">
                                                 <div class="row">
                                                     <div class="col-12 col-sm-6 mb-1">
-                                                        <img src="img/Screenshot/kimi_no_nawa_ss1.jpg" alt=""
-                                                            class="img-fluid">
+                                                        <a class="lightbox" href="PhotoSSPertama">
+                                                        <img src="PhotoSSPertama" alt=""
+                                                            class="img-fluid"></a>
                                                     </div>
                                                     <div class="col-12 col-sm-6 mb-1">
-                                                        <img src="img/Screenshot/kimi_no_nawa_ss2.jpg" alt=""
-                                                            class="img-fluid">
+                                                        <a class="lightbox" href="PhotoSSKedua">
+                                                        <img src="PhotoSSKedua" alt=""
+                                                            class="img-fluid"></a>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6 mb-1">
+                                                        <a class="lightbox" href="PhotoSSTambahan">
+                                                        <img src="PhotoSSTambahan" alt=""
+                                                            class="img-fluid"></a>
+                                                    </div>
+                                                    <div class="col-12 col-sm-6 mb-1">
+                                                        <a class="lightbox" href="PhotoSSTambahan">
+                                                        <img src="PhotoSSTambahan" alt=""
+                                                            class="img-fluid"></a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -383,9 +373,11 @@
                                             </a>
 
                                             <div class="collapse " id="collapse1080">
+                                                <!-- #LinkGoogle-->
                                                 <div class="col-12" id="googleDrive">
                                                     <div class="row">
 
+                                                        
                                                         <p class="col-12 mt-4">Google Drive</p>
 
                                                         <div class="col-12 col-md-6 order-2 order-md-1">
@@ -426,10 +418,13 @@
                                                                 </tbody>
                                                             </table>
                                                         </div>
+                                                        
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkGoogle-->
 
+                                                <!-- #LinkMegaup-->
                                                 <div class="col-12" id="megaUp">
                                                     <div class="row">
 
@@ -476,6 +471,7 @@
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkMegaup-->
                                             </div>
                                         </div>
                                         <hr>
@@ -497,9 +493,11 @@
                                             </a>
 
                                             <div class="collapse " id="collapse720">
+                                                <!-- #LinkGoogle-->
                                                 <div class="col-12" id="googleDrive">
                                                     <div class="row">
 
+                                                        
                                                         <p class="col-12 mt-4">Google Drive</p>
 
                                                         <div class="col-12 col-md-6 order-2 order-md-1">
@@ -540,10 +538,13 @@
                                                                 </tbody>
                                                             </table>
                                                         </div>
+                                                        
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkGoogle-->
 
+                                                <!-- #LinkMegaup-->
                                                 <div class="col-12" id="megaUp">
                                                     <div class="row">
 
@@ -590,6 +591,7 @@
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkMegaup-->
                                             </div>
                                         </div>
                                         <hr>
@@ -611,9 +613,11 @@
                                             </a>
 
                                             <div class="collapse " id="collapse480">
+                                                <!-- #LinkGoogle-->
                                                 <div class="col-12" id="googleDrive">
                                                     <div class="row">
 
+                                                        
                                                         <p class="col-12 mt-4">Google Drive</p>
 
                                                         <div class="col-12 col-md-6 order-2 order-md-1">
@@ -654,10 +658,13 @@
                                                                 </tbody>
                                                             </table>
                                                         </div>
+                                                        
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkGoogle-->
 
+                                                <!-- #LinkMegaup-->
                                                 <div class="col-12" id="megaUp">
                                                     <div class="row">
 
@@ -704,6 +711,7 @@
 
                                                     </div>
                                                 </div>
+                                                <!-- #endLinkMegaup-->
                                             </div>
                                         </div>
                                     </div>
@@ -792,6 +800,13 @@
         </footer>
     </div>
     <!-- Footer -->
+
+    <!-- #GalleryScript-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.grid-gallery', { animation: 'slideIn' });
+    </script>
+    <!-- #endGalleryScript -->
 
 </body>
 
