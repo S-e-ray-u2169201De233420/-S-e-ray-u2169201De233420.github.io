@@ -202,3 +202,41 @@
         .navbar .nav-item .dropdown-menu{ margin-top:0; }
     }	
     /* ============ desktop view .end// ============ */
+
+    /* update Catalog card*/
+
+    .cardUpdate.card-body {
+        padding: 0.5rem;
+      }  
+      
+      @media (max-width: 525px) {
+        .cardUpdate.card-body {
+            padding: 0.2rem;
+          }  
+        .cardUpdate h6 {
+            margin-bottom: 0.2rem;
+        }
+    }
+    
+
+    .updateCard:hover .overlay {
+        opacity: 1;
+      }
+
+      
+    /* Card Title background */
+
+    .anchor-bg-color {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 30%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #ffffff50;
+    }
+      
+    
