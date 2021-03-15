@@ -205,17 +205,30 @@
 
     /* update Catalog card*/
 
+    .imgContainer{
+        width: 35%;
+        overflow: hidden;
+    }
+
     .cardUpdate.card-body {
         padding: 0.5rem;
       }  
       
-      @media (max-width: 525px) {
-        .cardUpdate.card-body {
-            padding: 0.2rem;
-          }  
-        .cardUpdate h6 {
-            margin-bottom: 0.2rem;
-        }
+    .descContainer{
+        width: 65%;
+    }
+
+    .cardUpdate.card-body {
+        padding: 0.2rem;
+        }  
+
+    .cardUpdate h6 {
+        margin-bottom: 0.2rem;
+    }
+    
+
+    .cardUpdate.card-title{
+        color: black;
     }
     
 
@@ -224,7 +237,7 @@
       }
 
       
-    /* Card Title background */
+    /* Update Card Title background */
 
     .anchor-bg-color-update {
         position: absolute;
@@ -233,10 +246,19 @@
         left: 0;
         right: 0;
         height: 100%;
-        width: 30%;
+        width: 35%;
         opacity: 0;
         transition: .5s ease;
         background-color: #ffffff50;
+    }
+
+    /* #See more button*/
+
+    .seeMoreBtn{
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
     }
       
     
