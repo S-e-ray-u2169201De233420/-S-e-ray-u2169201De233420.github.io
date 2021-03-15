@@ -215,9 +215,40 @@
     width: 35%;
     overflow: hidden;
     }
+
+    @media (max-width: 575.98px) {
+        .imgContainer{
+            width: 35%;
+            overflow: hidden;
+            /* Magic */
+            display: flex;
+            align-items: baseline; /* vertical */
+            justify-content: center; /* horizontal */
+            }
+    }
+
+
     .descContainer{
         width: 65%;
     }
+
+    .updateCardImg{
+        height: 110px;
+    }
+
+    @media (max-width: 340px) {
+        .updateCardImg{
+            height: 130px;
+        }
+    }
+
+    @media (max-width: 305px) {
+        .updateCardImg{
+            height: 160px;
+        }
+    }
+
+    
 
     @media (min-width: 1200px) {
         .imgContainer{
