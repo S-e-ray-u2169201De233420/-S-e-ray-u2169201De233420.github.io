@@ -321,15 +321,22 @@
     }
 
     .btn-success {
-        color: #fff;
-        background-color: #28a745d0;
-        border-color: #28a745d0;
+    color: #fff;
+    background-color: #28a745d0;
+    border-color: #28a745d0;
       }
 
     .btn-danger {
     color: #fff;
     background-color: #dc3545d0;
     border-color: #dc3545d0;
+    }
+
+    .noSideMargin{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
       
     
