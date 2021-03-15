@@ -205,17 +205,28 @@
 
     /* update Catalog card*/
 
-    .imgContainer{
-        width: 35%;
-        overflow: hidden;
-    }
 
     .cardUpdate.card-body {
         padding: 0.5rem;
       }  
       
+    
+    .imgContainer{
+    width: 35%;
+    overflow: hidden;
+    }
     .descContainer{
         width: 65%;
+    }
+
+    @media (min-width: 1200px) {
+        .imgContainer{
+            width: 25%;
+            overflow: hidden;
+            }
+            .descContainer{
+                width: 75%;
+            }
     }
 
     .cardUpdate.card-body {
