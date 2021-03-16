@@ -121,6 +121,10 @@
         opacity: 1;
       }
 
+    .card-img-overlay{
+        border-radius: 0px;
+    }
+
       
     /* Card Title background */
 
@@ -338,6 +342,18 @@
         margin-right: 0px;
         padding-left: 0px;
         padding-right: 0px;
+    }
+
+    .round-download{
+        border-radius: 0px 0px 10px 10px;
+    }
+
+    .round-type{
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .card-img-top{
+        border-radius: 0px;
     }
       
     
