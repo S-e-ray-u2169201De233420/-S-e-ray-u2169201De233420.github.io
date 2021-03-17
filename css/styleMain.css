@@ -355,13 +355,18 @@
     .card-img-top{
         border-radius: 0px;
     }
+
+    #if-id {
+        z-index: 1; /* for clarity */
+    }
     
-    .example::-webkit-scrollbar {
-        display: none;
-      }
-      
-      /* Hide scrollbar for IE, Edge and Firefox */
-      .example {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;  /* Firefox */
-      }
+    #a-id {
+        position: absolute;
+        display: block; /* so anchor can take dimensions */
+        top: 0px;
+        left: 0px;
+        height: 240px;
+        width: 235px;
+        z-index: 2;
+    }
+
