@@ -27,19 +27,7 @@
 </head>
 
 <body>
-  <!-- JavaScript -->
-  <script src="js/scriptMain.js"></script>
-
-
-
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="vendor/js/jquery-3.5.1.min.js">
-  </script>
-  <script src="vendor/js/popper.min.js">
-  </script>
-  <script src="vendor/js/bootstrap.js">
-  </script>
-  <!-- #endJavaScript -->
+  
 
 
   <!-- #Header-->
@@ -172,25 +160,38 @@
                       serayu akan meluncur resmi secepatnya!</p>
 
                     <h4>Apa itu anime 60 fps dan perbedaan nya dari anime lain</h4>
-
-                    <button onclick="playVid()" type="button">Play Video</button>
-                    <button onclick="pauseVid()" type="button">Pause Video</button><br>
-
-                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
-                      <video controls id="myVideo">
-                        <source src="vid/myNameisRick.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-5 offset-1 px-0 pr-2 py-1 ">
+                          <a onclick="playVid();playVid2()" href="#myVideo">
+                            <div class="seeMoreBtn btn-primary text-center rounded-corner border score mb-1">
+                              Play Video
+                            </div>
+                          </a>
+                        </div>
+                        <div class="col-5 px-0 pl-2 py-1 ">
+                          <a onclick="stopvid();stopvid2()" href="#myVideo">
+                            <div class="seeMoreBtn btn-primary text-center rounded-corner border score mb-1">
+                              Pause Video
+                            </div>
+                          </a>
+                        </div>
+    
+                        <div class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
+                          <video controls id="myVideo">
+                            <source src="vid/myNameisRick.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+    
+                        <div class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
+                          <video controls id="myVideo1">
+                            <source src="vid/myNameisRick.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                          </video>
+                        </div>
+                      </div>
                     </div>
-
-                    <div class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
-                      <video controls id="myVideo1">
-                        <source src="vid/myNameisRick.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                      </video>
-                    </div>
-
-
 
                     <p>Sama seperti di game, semakin tinggi frame per second (fps) maka akan semakin halus pergerakan
                       yang terlihat oleh mata untuk perbedaan nya kalian bisa lihat seperti ini</p>
@@ -280,30 +281,22 @@
       </ul>
       <p class="copyright">Serayu Fansub © 2021</p>
     </footer>
-  </div>
   <!-- Footer -->
 
-  <script>
-    var vid = document.getElementById("myVideo");
+  <!-- JavaScript -->
+  <script src="js/scriptMain.js"></script>
 
-    function playVid() {
-      vid.play();
-    }
 
-    function pauseVid() {
-      vid.pause();
-    }
 
-    var vid = document.getElementById("myVideo1");
-
-    function playVid() {
-      vid.play();
-    }
-
-    function pauseVid() {
-      vid.pause();
-    }
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="vendor/js/jquery-3.5.1.min.js">
   </script>
+  <script src="vendor/js/popper.min.js">
+  </script>
+  <script src="vendor/js/bootstrap.js">
+  </script>
+  <!-- #endJavaScript -->
+
 
 </body>
 
