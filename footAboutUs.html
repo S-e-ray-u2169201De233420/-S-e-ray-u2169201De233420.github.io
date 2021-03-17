@@ -174,44 +174,25 @@
                     <h4>Apa itu anime 60 fps dan perbedaan nya dari anime lain</h4>
 
                     <button onclick="playVid()" type="button">Play Video</button>
-                    <button onclick="pauseVid()" type="button">Pause Video</button><br> 
+                    <button onclick="pauseVid()" type="button">Pause Video</button><br>
 
-                    <div id="myVideo" class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
+                    <div id="myVideo"
+                      class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
                       <video controls autoplay>
                         <source src="vid/myNameisRick.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
 
-                    <div id="myVideo1" class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
+                    <div id="myVideo1"
+                      class="embed-responsive embed-responsive-16by9 col-12 col-md-10 offset-md-1  mb-1">
                       <video controls autoplay>
                         <source src="vid/myNameisRick.mp4" type="video/mp4">
                         Your browser does not support the video tag.
                       </video>
                     </div>
 
-                    <script> 
-                      var vid = document.getElementById("myVideo"); 
-                      
-                      function playVid() { 
-                        vid.play(); 
-                      } 
-                      
-                      function pauseVid() { 
-                        vid.pause(); 
-                      } 
-
-                      var vid = document.getElementById("myVideo1"); 
-                      
-                      function playVid() { 
-                        vid.play(); 
-                      } 
-                      
-                      function pauseVid() { 
-                        vid.pause(); 
-                      } 
-                      </script> 
-                      </script> 
+                    
 
                     <p>Sama seperti di game, semakin tinggi frame per second (fps) maka akan semakin halus pergerakan
                       yang terlihat oleh mata untuk perbedaan nya kalian bisa lihat seperti ini</p>
@@ -219,7 +200,7 @@
                     <p>*Note (nanti itu berupa video singkat 15 detik perbandingan nya + nanti di hardsub juga untuk
                       video ny)</p>
 
-                    
+
 
                   </div>
 
@@ -304,7 +285,27 @@
   </div>
   <!-- Footer -->
 
+  <script>
+    var vid = document.getElementById("myVideo");
 
+    function playVid() {
+      vid.play();
+    }
+
+    function pauseVid() {
+      vid.pause();
+    }
+
+    var vid = document.getElementById("myVideo1");
+
+    function playVid() {
+      vid.play();
+    }
+
+    function pauseVid() {
+      vid.pause();
+    }
+  </script>
 
 </body>
 
