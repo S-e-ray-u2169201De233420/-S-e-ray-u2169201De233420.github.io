@@ -41,13 +41,11 @@ var vid = document.getElementById("myVideo");
 var vid2 = document.getElementById("myVideo1");
 
 function playVid() {
-  vid.autoplay = true;
-  vid.load();
+  vid.play()
 }
 
 function playVid2() {
-  vid2.autoplay = true;
-  vid2.load();
+  vid2.play()
   vid2.muted = true;
 }
 
@@ -57,4 +55,16 @@ function stopvid() {
 
 function stopvid2() {
   vid2.pause();
+}
+
+function resetvid() {
+  vid.pause();
+  vid.currentTime = 0;
+  vid.play();
+}
+
+function resetvid2() {
+  vid2.pause();
+  vid2.currentTime = 0;
+  vid2.play();
 }
