@@ -26,15 +26,15 @@ function spoiler_link() {
 }
 
 function BlockedTest() {
-  alert("STOP RIGHT THERE \nini website design, beberapa fitur ga fungsional");
+  alert("STOP RIGHT THERE \nini website design, beberapa fitur ga fungsional \n-Frontend Crystal");
 }
 
 function BlockedMagerTest() {
-  alert("FrontEnd nya lagi mager \nbelum ada fiturnya. mintanya nanti saja");
+  alert("FrontEnd nya lagi mager \nbelum ada fiturnya. mintanya nanti saja \n-Frontend Crystal");
 }
 
 function BlockedNotifyMe() {
-  alert("INI CONTOH NOTIFY ME \nbelum ada fiturnya. pokoknya nanti muncul kayak bacaan suruh allow gitu, urusan backend im not gonna touch this sh*t -frontend");
+  alert("INI CONTOH NOTIFY ME \nbelum ada fiturnya. pokoknya nanti muncul kayak bacaan suruh allow gitu, urusan backend im not gonna touch this sh*t \n-Frontend Crystal");
 }
 
 var vid = document.getElementById("myVideo");
