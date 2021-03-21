@@ -68,12 +68,3 @@ function resetvid2() {
   vid2.currentTime = 0;
   vid2.play();
 }
-
-$(window).on('load', function(){
-  setTimeout(showImage, 2000); 
-});
-function showImage(){
-    $( ".card-lbl-top" ).fadeOut(500, function() {
-     $(".card-img").append('<img class="card-img" id="img-card" src="https://via.placeholder.com/700x400" alt="Card image cap">');
-  });  
-}
